@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(spn1.jpg);
+    height: 300px;
+}
+.header .header-container{
+    color: white;
+    margin: 30px 100px;
+    padding: 30px;
+    text-align: center;
+    border: 5px double rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: auto;
+}
+.section1{
+    display: flex;
+}
+.section > div{
+    flex: 1;
+}
+.section1 > div:first-child{
+    background: #EBC79E;
+}
+.section1 > div:last-child{
+    background: #DB9370;
+}
+h2{
+    text-align: center;
+}
+footer{
+    text-align:center;
+    padding: 25px;
+    background: #be4900;
+    height: 100px;
+}
